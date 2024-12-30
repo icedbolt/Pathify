@@ -9,6 +9,10 @@ public class Graph {
         nodes.putIfAbsent(name, new Node(name));
     }
 
+    public void addNode(Node node) {
+        nodes.putIfAbsent(node.getName(), node);
+    }
+
     public void addEdge(String from, String to, int weight) {
         Node nodeA = nodes.get(from);
         Node nodeB = nodes.get(to);

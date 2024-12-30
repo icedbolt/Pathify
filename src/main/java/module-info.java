@@ -1,8 +1,9 @@
 module com.example.pathify {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.base;
 
 
-    opens com.example.pathify to javafx.fxml;
-    exports com.example.pathify;
+    opens com.shortestpath.pathify to javafx.fxml;
+    exports com.shortestpath.pathify;
 }
