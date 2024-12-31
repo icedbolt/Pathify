@@ -1,2 +1,2 @@
 # Pathify
-Shortest Path Visualizer
+Visualize shortest path in a Graph/Map.
